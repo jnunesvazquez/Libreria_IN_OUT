@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class ObjetoConsola {
 
-    public static void imprimirPorConsola(){
+    public void imprimirPorConsola(){
         String elemento = JOptionPane.showInputDialog("Introducir el mensaje a mostrar");
         JOptionPane.showMessageDialog(null, elemento);
     }

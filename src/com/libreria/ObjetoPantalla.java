@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ObjetoPantalla {
 
-    public static void imprimirPorPantalla(){
+    public void imprimirPorPantalla(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Introducir el mensaje a mostrar");
         String elemento = sc.nextLine();
