@@ -11,7 +11,6 @@ public class ObjetoConsola implements ISalida{
     }
 
     public void visualiza(){
-        String elemento = JOptionPane.showInputDialog("Introducir el mensaje a mostrar");
-        JOptionPane.showMessageDialog(null, elemento);
+        System.out.println("Sale por la consola " + msg);
     }
 }

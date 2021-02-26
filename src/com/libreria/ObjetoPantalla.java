@@ -1,6 +1,6 @@
 package com.libreria;
 
-import java.util.Scanner;
+import javax.swing.*;
 
 public class ObjetoPantalla implements ISalida{
 
@@ -11,9 +11,6 @@ public class ObjetoPantalla implements ISalida{
     }
 
     public void visualiza(){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Introducir el mensaje a mostrar");
-        String elemento = sc.nextLine();
-        System.out.println(elemento);
+        JOptionPane.showMessageDialog(null, "Sale por la pantalla " + msg);
     }
 }
