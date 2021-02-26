@@ -2,7 +2,7 @@ package com.libreria;
 
 import javax.swing.*;
 
-public class ObjetoConsola {
+public class ObjetoConsola implements ISalida{
 
     private String msg;
 
@@ -10,7 +10,7 @@ public class ObjetoConsola {
         this.msg = msg;
     }
 
-    public void imprimirPorConsola(){
+    public void visualiza(){
         String elemento = JOptionPane.showInputDialog("Introducir el mensaje a mostrar");
         JOptionPane.showMessageDialog(null, elemento);
     }

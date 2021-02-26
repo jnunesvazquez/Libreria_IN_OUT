@@ -2,7 +2,7 @@ package com.libreria;
 
 import java.util.Scanner;
 
-public class ObjetoPantalla {
+public class ObjetoPantalla implements ISalida{
 
     private String msg;
 
@@ -10,7 +10,7 @@ public class ObjetoPantalla {
         this.msg = msg;
     }
 
-    public void imprimirPorPantalla(){
+    public void visualiza(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Introducir el mensaje a mostrar");
         String elemento = sc.nextLine();
