@@ -3,7 +3,7 @@ package com.libreria;
 import javax.swing.*;
 import java.util.Scanner;
 
-public class NombreConsola implements ISalida{
+public class NombreConsola implements INombre{
 
     private String msg;
 

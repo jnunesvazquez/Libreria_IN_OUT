@@ -2,7 +2,7 @@ package com.libreria;
 
 import javax.swing.*;
 
-public class NombrePantalla implements ISalida{
+public class NombrePantalla implements INombre{
 
     private String msg;
 
