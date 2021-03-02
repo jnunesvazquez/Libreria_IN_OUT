@@ -7,7 +7,7 @@ public class NombreConsola implements ISalida{
 
     private String msg;
 
-    public NombreConsola (String msg){msg = pedirNombre();}
+    public NombreConsola (){msg = pedirNombre();}
 
     public String pedirNombre(){
         Scanner sc = new Scanner(System.in);

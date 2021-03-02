@@ -6,7 +6,7 @@ public class NombrePantalla implements ISalida{
 
     private String msg;
 
-    public NombrePantalla (String msg){
+    public NombrePantalla (){
         msg = pedirNombre();
     }
 

@@ -16,9 +16,9 @@ public class FactoriaDeSalidas {
             case IMPRESORA:
                 return new Impresora(msg);
             case NOMBRECONSOLA:
-                return new NombreConsola(msg);
+                return new NombreConsola();
             case NOMBREPANTALLA:
-                return new NombrePantalla(msg);
+                return new NombrePantalla();
             default:
                 return null;
         }
